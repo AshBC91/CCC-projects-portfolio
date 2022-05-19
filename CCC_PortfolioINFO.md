@@ -32,7 +32,7 @@ Each subdirectory contains a README file with a description of its contents and 
         <li>switchOptions/</li>
         <ul>
             <li>switchOptions.ps1</li>
-        <ul>
+        </ul>
     </ul>
     <li>CSCS1320_C-Cpp</li>
     <li>CSCS1730_UNIX</li>
