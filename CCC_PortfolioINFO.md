@@ -7,7 +7,19 @@ Many of theses projects where short tasks developed in a week span.
 
 The files are all organized by course number and name. Each subdirectory contains a README file with a description of its contents.
 
-Outline:
-  - CSCS1240_PS
-  - CSCS1320_C-Cpp
-  - CSCS1730_UNIX
+Directory Index:
+    - CSCS1240_PS/
+          ¬ carRustEstimator/
+                » carRustEst.ps1
+                » carRustEstRand.ps1
+          ¬ classHousing/
+                » classHousing.ps1
+          ¬ CLIproject/
+                » CLIproject.ps1
+                » cliTesting.ps1
+          ¬ randomNumberGenerator/
+                » randomNumGen.ps1
+          ¬ switchOptions/
+                » switchOptions.ps1
+    - CSCS1320_C-Cpp
+    - CSCS1730_UNIX
