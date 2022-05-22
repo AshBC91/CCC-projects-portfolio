@@ -1,7 +1,7 @@
 # CCC-projects-portfolio
 
 This portfolio consists of various projects that I developed during my studies at _Corning Community College_;
-where I obtained my **Associate's Degree**, majoring in **Computer Science** _(Spring 2021 to Fall 2022)_.
+where I obtained my **Associate's Degree**, majoring in **Computer Science** _(Spring 2021 to Spring 2023)_.
 
 Many of these projects were short tasks developed in a week.
 The files are all organized by course number and name. 
