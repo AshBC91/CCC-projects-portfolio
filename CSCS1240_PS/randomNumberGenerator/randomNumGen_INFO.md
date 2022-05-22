@@ -1,1 +1,1 @@
-# randomNumberGenerator
+# Random Number Generator Information
