@@ -1,4 +1,4 @@
-# Switch Options
+# Switch Options Information
 
 The objective of this task was to use a **switch case statement** and analyze its functionality.
 This is a very short and simple program, yet I tried to keep it very *organized and structured*.
