@@ -4,12 +4,12 @@
 > Data types and variables, control structures, arrays, sorting and searching, common sense analysis, problem-solving, logic flow charting, pseudo coding, and Unified Modeling Language (UML)."
 *2022-2023 Corning Community College Course Catalog*
 
-I took this class on my second semester during Fall 2021 at CCC.
-We learned basic problem solving concepts and techniques related to structured, procedural, and object-oriented coding/programming. 
-We used XML, UML, diagrams, and pseudo code to design and conceptualize our scripts.
-To test and reinforce our knowledge, we were also taught basic commands on Power Shell and were assigned to develop a few projects of our choosing.
+<p>
+I took this class on my second semester during Fall 2021 at CCC, taught by Professor Joseph Oppenheim.<br>
+  
+We learned basic problem solving concepts and techniques related to structured, procedural, and object-oriented coding/programming. We also used XML, UML, diagrams, and pseudo code to design and conceptualize our scripts. Ultimately, to test and reinforce our knowledge, we were also taught basic commands on Power Shell and were assigned to develop a few projects of our choosing.
 
-I am including only the most relevant projects I developed for this class.
+  <i>I am including only the most relevant projects I developed for this class.</i>
 
 ### Index:
   - carRustEstimator
@@ -17,7 +17,7 @@ I am including only the most relevant projects I developed for this class.
   - CLIproject
   - randomNumberGenerator
   - switchOptions
-
+</p>
 
 
 
