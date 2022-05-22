@@ -9,9 +9,10 @@ Each subdirectory contains a README file describing the directory's contents and
 
 ### Directory Index:
 <ul>
-    <li><a href="https://github.com/AshBC91/CCC-projects-portfolio/blob/main/CSCS1240_PS/CSCS1240_INFO.md">CSCS1240_INFO.md</a></li>
+    <li><a href="https://github.com/AshBC91/CCC-projects-portfolio/blob/main/CCC_Portfolio_INFO.md">CCC_Portfolio_INFO.md</a></li>
     <li><a href="https://github.com/AshBC91/CCC-projects-portfolio/tree/main/CSCS1240_PS">CSCS1240_PS/</a></li>
     <ul>
+        <li><a href="https://github.com/AshBC91/CCC-projects-portfolio/blob/main/CSCS1240_PS/CSCS1240_INFO.md">CSCS1240_INFO.md</a></li>
         <li><a href="https://github.com/AshBC91/CCC-projects-portfolio/tree/main/CSCS1240_PS/carRustEstimator">carRustEstimator/</a></li>
         <ul> 
             <li>carRustEst.ps1</li>
