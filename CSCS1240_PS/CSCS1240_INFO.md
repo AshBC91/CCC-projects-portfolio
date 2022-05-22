@@ -11,7 +11,7 @@ To test and reinforce our knowledge, we were also taught basic commands on Power
 
 I am including only the most relevant projects I developed for this class.
 
-### Outline:
+### Index:
   - carRustEstimator
   - classHousing
   - CLIproject
