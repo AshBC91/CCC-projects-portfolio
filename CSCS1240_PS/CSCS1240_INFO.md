@@ -12,11 +12,13 @@ We learned basic problem solving concepts and techniques related to structured, 
   <i>I am including only the most relevant projects I developed for this class.</i>
 
 ### Index:
-  - carRustEstimator
-  - classHousing
-  - CLIproject
-  - randomNumberGenerator
-  - switchOptions
+<ul>
+  <li><a href="https://github.com/AshBC91/CCC-projects-portfolio/tree/main/CSCS1240_PS/carRustEstimator">carRustEstimator/</a></li>
+  <li><a href="https://github.com/AshBC91/CCC-projects-portfolio/tree/main/CSCS1240_PS/classHousing">classHousing/</a></li>
+  <li><a href="https://github.com/AshBC91/CCC-projects-portfolio/tree/main/CSCS1240_PS/CLIproject">CLIproject/</a></li>
+  <li><a href="https://github.com/AshBC91/CCC-projects-portfolio/tree/main/CSCS1240_PS/randomNumberGenerator">randomNumberGenerator/</a></li>
+  <li><a href="https://github.com/AshBC91/CCC-projects-portfolio/tree/main/CSCS1240_PS/switchOptions">switchOptions/</a></li>
+</ul>
 </p>
 
 
