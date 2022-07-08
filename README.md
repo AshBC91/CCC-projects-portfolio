@@ -3,8 +3,8 @@
 This portfolio consists of various projects that I developed during my studies at _Corning Community College_;
 where I obtained my **Associate's Degree**, majoring in **Computer Science** _(Spring 2021 to Spring 2023)_.
 
-Many of these projects were short tasks developed in a week.
-The files are all organized by course number and name. 
+Many of these projects were short tasks developed in a week span.
+The files are all organized by course number and name.
 Each subdirectory contains a README file describing the directory's contents and the functionality of the scripts/programs/projects.
 
 ### Directory Index:
