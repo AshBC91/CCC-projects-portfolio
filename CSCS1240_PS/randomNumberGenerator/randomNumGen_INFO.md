@@ -8,7 +8,7 @@ This script generates *semi-random numbers* using the system's time during execu
     - Function lcg contains a mathematical equation that calculates the next random number: **f(x) = ( ax + b ) % c**
     - Where:
       - **x** is the *sum of the current time* or *the previously generated random number*, represented by the variable **$current**.
-        -  Variable $current gets over overwritten every time a new random number is generated.
+        -  Variable $current gets overwritten every time a new random number is generated.
       - **a** is the coefficient that scales up or down x, represented by the variable **$coefficient**.
       - **b** is a domain shifter, which determines the initial value of f(x) in case x = 0, represented by the variable **$constant**.
       - **c** is a range limiter, used to establish the largest value we want to obtain from the equation, represented by the variable **$modulus**.
