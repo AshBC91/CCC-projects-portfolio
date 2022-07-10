@@ -1,0 +1,35 @@
+Example:
+
+#include <iostream>
+
+class Flow {
+	#public and private are qualifiers
+	public:
+
+	void whilly( ) {
+		int count = 45;
+		while( countr < 52 ) //{
+			std::cout << "whilly: " << count++ << '\n';
+			// count++;
+		//}
+	}
+
+	void four( ) {
+		for( int count = 45; count < 52; count++ ) {
+			std::cout << "four: " << count << '\n';
+		}
+	}
+	void forRange( ) {
+		for( int num : { 23, 45, -9 } ) //curly braces are not necessary if there is only one statement
+			std::cout << "forRange: " << num << '\n';
+	}
+}
+};
+
+int main ( ) {
+	Flow flo;
+	flo.whilly( );
+	flo.four( );
+
+	return 123;
+}
