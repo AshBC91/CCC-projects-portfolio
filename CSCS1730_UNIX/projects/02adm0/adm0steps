@@ -1,0 +1,149 @@
+===== amd0steps ======
+# unless specified most commands were executed directly @lab46
+
+1. $ cd /var/public/spring2022/unix/adm0/abarbcal 
+# navigated to my assigned directory inside the public directory.
+2. $ mkdir ~/src/spring2022/adm0 
+# created directory folder adm0 at home
+3. $ cp {adm0a.zip,adm0b.tar.gz,adm0c.tar.bz2,adm0d.tar.xz} ~/src/spring2022/adm0 
+# copied designated files to my personal adm0 directory
+4. $ cd ~/src/spring2022/adm0 
+# navigated to adm0 directory at home
+5. $ mkdir {A,B,C,D,E} 
+# created A, B, C, D, & E folders to properly organize files
+6. $ mv adm0a.zip A 
+# moved adm0a.zip file to A directory
+7. $ mv adm0b.tar.gz B 
+# moved adm0b.tar.gz file to B directory
+8. $ mv adm0c.tar.bz2 C 
+# moved adm0c.tar.bz2 file to C directory
+9. $ mv adm0d.tar.xz D 
+# moved adm0d.tar.xz file to D directory
+10. $ cd A
+# navigated to directory A
+11. $ man zip
+11a. $ unzip adm0a.zip
+# decompressed adm0a.zip file
+12. $ ls -l
+# listed all files
+13. $ file 2 out7
+# obtained filetype from file 2 and out7
+14. $ cat 2
+# plain text file
+15. @mypie $ sudo apt search uuencode
+# searched packages that are compatible with uuencode format files
+16. @mypie $ sudo apt-get install sharutils
+# installed sharutils package
+17. @mypie $ man uudecode
+# read documentation about uudecode
+18. $ uudecode out7
+# decoded out7 file
+19. $ cat 7
+# read 7 text file
+20. $ cat out7
+# read out7 encoded file to compare outputs
+21. $ cd ..
+# navigated to main adm0 directory
+22. $ cp A/{2,7} E
+# copied files 2 and 7 into E directory
+23. $ cd B
+# navigated into B directory
+24. $ man gzip
+24a. $ gunzip adm0b.tar.gz
+# decompressed adm0b.tar.gz
+25. $ ls -a
+# listed all files
+26. $ man tar
+26a. $ tar -x adm0b.tar
+# failed attempt to extract files
+27. $ tar -x -f adm0b.tar
+# extracted files from adm0b.tar
+# from here on forward, I will stop commenting on repeated or obvious commands
+28. $ ls -l
+29. $ file out4 out6
+30. $ man rev
+30a. $ rev out4 >> 4
+# reversed out4 file with rev command and redirected output to file 4
+31. $ ls
+32. $ cat out6
+33. $ man tac
+34. $ tac out6 | nano
+# reversed concatenated lines on out6 file with tac command and saved output with pipelined nano command
+35. $ ls
+36. $ mv nano.save 6
+37. $ nano 6
+# when saving the reversed output, text lost its format, used nano to properly format text contents
+38. $ cp {4,6} ../E
+# copied files 4 and 6 to directory E inside main amd0 directory
+39. $ cd ../C
+# navigated to C directory
+40. $ ls
+41. $ man bzip2
+41a. $ bunzip2 adm0c.tar.bz2
+# decompressed file adm0c.tar.bz2 with bzip2
+42. $ tar -x -f adm0c.tar
+# extracted files from adm0c.tar
+43. $ ls -l
+44. $ file out12 out82
+45. $ cat out82
+46. $ uudecode out82
+47. $ ls
+48. $ cat 8
+49. $ tac 8 >> 8r
+# reversed concatenated lines on 8 file with tac command and redirected output to file 8r
+50. $ rm 8
+# deleted file 8
+51. $ mv 8r 8
+# renamed file 8r to 8
+52. $ cat out12
+53. $ uudecode out12
+54. $ ls
+55. $ cat 1
+56. $ rev 1 >> 1r
+# reversed 1 file with rev command and redirected output to 1r file
+57. $ rm 1
+58. $ mv 1r 1
+59. $ cp {1,8} ../E
+# copied files 1 and 8 to directory E inside main adm0 directory
+60. $ cd ../D
+# navigated to directory D
+61. $ ls
+62. $ man xz
+62a. $ unxz adm0d.tar.xz
+# decompressed adm0d.tar.xz with unxz command
+63. $ tar -x -f adm0d.tar
+# extracted files from adm0d.tar
+64. $ ls -a
+65. $ file 3
+66. $ cat 3
+67. $ unzip 5.zip
+68. $ ls
+69. $ file 5
+70. $ cat 5
+71. $ cp {3,5} ../E
+# copied files 3 and 5 to directory E inside main adm0 directory
+72. $ cd ../E
+# navigated to E directory
+73. $ ls -l
+74. $ mkdir adm0e
+75. $ cp {1,2,3,4,5,6,7,8} adm0e
+# copied all 8 files to have a backup, just in case
+76. $ mv 1 a ......... mv 8 a
+# renamed all files according to requirements
+77. $ cd adm0e
+78. $ man tar
+78a. $ tar -cfv adm0e.tar {a,b,c,d,e,f,g,h}
+# archived all files into adm0e.tar file
+79. $ man gzip
+79a. $ gzip -kv9 adm0e.tar
+# compressed adm0e.tar into adm0e.tar.gz
+80. @mypie $ sudo apt search md5sum
+# searched packages that are compatible with md5sum command
+81. @mypie $ sudo apt-get install debsums
+# installed debsums package
+82. filechk unix adm0
+# 8 files matched
+83. mv adm0e.tar.gz ../..
+# moved adm0e.tar.gz to main adm0 directory
+84. submit unix adm0 adm0e.tar.gz adm0steps
+# end of line... :)
