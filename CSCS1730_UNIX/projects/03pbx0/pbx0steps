@@ -1,0 +1,89 @@
+====== PBX0 Steps ======
+By: Ashley Barb Caldelas
+CSCS 1730
+01-31-2022
+
+# Most commands were executed directly @lab46, unless otherwise specified.
+# Too obvious or repetitive commands will not have descriptive comments.
+
+00. $ cd /var/public/spring2022/unix/pbx0/abarbcal
+# Navigated to assigned directory inside the public directory.
+01. $ cp start.html ~/src/spring2022/pbx0
+# Copied start.html file to my personal pbx0 directory at home.
+# This file already looks suspicious, ".html" huh?
+02. $ cd ~/src/spring2022/pbx0
+03. $ file start.html
+# The following message was returned: 'gzip compressed data, was "lions.in.kenya"'.
+04. $ gunzip -v start.html
+# The following message was returned: 'unknown suffix -- ignored'.
+05. $ gunzip -vf start.html
+# Forcing didnt work, got the same message.
+06. $ cp start.html lions.in.kenya.gz
+# Made a copy of original file just in case. Renamed copy and added suffix gz.
+07. $ gunzip -v lions.in.kenya.gz
+# Message from gz: replaced with lions.in.kenya.
+08. $ file lions.in.kenya
+# Message: uuencoded or xxencoded, ASCII text. EZ PZ!
+09. $ uudecode lions.in.kenya
+# Obtained not.in.norway file.
+10. $ cat not.in.norway
+# I was not expecting that output. D:
+11. $ file not.in.norway
+# Message: bzip2 compressed data.
+12. $ cp not.in.norway not.in.norway.bz
+# I created a separate directory and moved the original not.in.norway file there.
+13. $ bunzip2 not.in.norway.bz
+# Obtained not.in.norway file.
+14. $ file not.in.norway
+# Message: POSIX tar archive.
+15. $ tar -xf not.in.norway
+# Obtained files canyon.mid, sol.exe, & subnet.pka.
+16. $ file canyon.mid sol.exe subnet.pka
+# Message: canyon.mid: Zip archive data; sol.exe: cpio archive; subnet.pka: uuencoded or xxencoded.
+17. $ ./sol.exe
+# Didn't work. Had to give it a try, ya know?
+18. $ cpio -i sol.exe
+# For some reason this command didn't work. I had to do some research regarding this command.
+19. $ cpio -i < sol.exe
+# Obtained data.file.2; I do not understand why the < symbol makes it work tho.
+20. $ unzip canyon.mid
+# Obtained a very bright green, almost radioactive, data.file.1.
+21. $ uudecode subnet.pka
+# Obtained data.file.0.
+22. $ file data.file.0 data.file.1 data.file.2
+# Message: data.file.0: regular file, no read permission (Really? Just a regular file? How much can I trust that? At this point I trust no one.)
+# Message: data.file.1: ASCII text; data.file.2: ZZip archive data.
+23. $ cat data.file.1
+# Just a plain ASCII text, yeah right. 
+24. $ rev data.file.1 > 1
+# Of course something is wrong with this file.
+25. $ cat 1
+# Now its readable.
+26. $ chmod 700 data.file.0
+27. $ cat data.file.0
+# I see whats going on. Gotta use sort.
+28. $ file data.file.2
+# Smartass file says the data.file.2 is Zzip archive data.
+29. $ file -k data.file.2
+# 100 hours later, after trying to decompress and extract data.file.2 with one thousand different archive tools, it turns out its just a regular ASCII text file. Yes, you laugh at my misery Matt. I deserve and A++++ for all the trauma this project has caused me...
+30. $ rev data.file.2 > 2
+31. $ cat 2 | tr -t Z ' ' > data.file.2
+# Replaced all misleading Z to just a blank space.
+32. $ mv 1 data.file.1
+33. $ cat data.file.0 data.file.1 data.file.2 | sort -n > results
+# Sorted lines of text from all data.file files in ascending numerical order, and redirected output to file results.
+34. $ filechk unix pbx0
+# File matched.
+35. $ cat results | mail -s "[UNIX: puzzlebox]" wedge abarbcal@lab46.g7n.org
+# Took a couple tries, but emailed results as instructed ;)
+36. $ submit unix pbx0 results pbx0steps
+# This was such a journey, it even had a narrative arch, with data.file.2 being the hidden antagonist; the final boss LOL.
+# end of line...
+
+
+
+
+
+
+
+ 
