@@ -1,0 +1,19 @@
+patgen_dcl.h (header/declaration)
+	
+	#pragma once
+	declare class PatGen with variables and methods
+
+patgen_def.cpp (implementation/definition)
+	
+	include "dcl.h"
+	<include iostream>
+
+	define methods within class
+	while loop: print odd numbers from 13 to 21
+	for loop: print 6 even numbers starting from 48
+
+patgen_test.cpp 
+	
+	include "def.cpp"
+	int main() declaring new object type PatGen
+	call methods
