@@ -1,5 +1,7 @@
 # CCC Projects Portfolio Information
 
+### WIP
+
 This portfolio consists of various projects that I developed during my studies at _Corning Community College_;
 where I obtained my **Associate's Degree**, majoring in **Computer Science** _(Spring 2021 to Spring 2023)_.
 
