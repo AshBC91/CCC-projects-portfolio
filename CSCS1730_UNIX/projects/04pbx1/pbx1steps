@@ -1,0 +1,60 @@
+
+====== PBX1 Steps ======
+By: Ashley Barb Caldelas
+CSCS 1730
+02-06-2022
+
+# Most commands are executed directly @lab46, unless otherwise specified.
+# Too obvious or repeated commands will no have descriptive comments.
+
+# Starting home ~.
+00. $ cd ~/src/spring2022
+01. $ mkdir pbx1
+02. $ cd pbx1
+03. $ cp /var/public/spring2022/unix/pbx1/abarbcal/{pbx1.ogg, README} .
+# Copied pbx1.ogg, REAME files to current directory.
+04. $ mkdir ogs
+# Created ogs directory, to store original files.
+05. $ cp pbx1.ogg ogs/
+# Made backup copy.
+06. $ bunzip2 pbx1.ogg
+# Obtained pbx1.ogg.out.
+07. $ ar -x pbx1.ogg.out
+# Extracted data with ar. Obtained datafile.
+08. $ mv datafile ogs
+09. $ cp ogs/datafile .
+# Made backup copy.
+# Analyzing file:
+10. $ wc -l datafile
+10a. $ cat -n datafile
+# 27 lines long - 1 line of X = 26 / 2 = 13.
+11. $ wc -L datafile
+# 59 characters -1 space = 58 columns / 2 = 29 - 1 = 28.
+# Each corner of the image is 13 lines long and 28 columns wide.
+# Columns: Last character before X has position 28. First character after X has position 30.
+# Lines: Last line before X has position 13. First line after X has position 15.
+12. $ tail -13 datafile > pbx1.bottom
+# Getting bottom half of image.
+13. $ head -13 datafile > pbx1.top
+# Getting top half of image.
+14. $ cut -c 30- pbx1.top > pbx1.Q2
+# Getting right half from file, which is the top-left portion of image.
+15. $ cut -c 1-28 pbx1.top > pbx1.Q1
+# Getting left half from file, which is the top-right portion of image.
+16. $ paste -d '' pbx1.Q2 pbx1.Q1 > pbx1wip
+# Merging files with parallel lines, no delimiter, to complete top half of image.
+17. $ cut -c 30- pbx1.bottom > pbx1.Q3
+# Getting right half from file, which is bottom-left portion of image.
+18. $ cut -c 1-28 pbx1.bottom > pbx1.Q4
+# Gerring left half from file, which is bottom-right portion of image.
+20. $ paste -d '' pbx1.Q3 pbx1.Q4 >> pbx1wip
+# Merging files with parallel lines, no delimiter, to complete the entire image.
+21. $ mv pbx1.* ogs/
+# Moved all extra pbx1.* files to ogs directory.
+21. $ mv pbx1wip pbx1.results
+22. $ filechk unix pbx1
+# md5sums matched :).
+23. $ submit unix pbx1 pbx1.results pbx1steps
+# end of line...
+
+
