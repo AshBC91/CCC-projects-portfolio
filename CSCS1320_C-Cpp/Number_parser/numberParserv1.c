@@ -68,7 +68,7 @@ int strLength ( char *STR ) {
 
     while ( *STR ) {
         counter++;
-        *STR++;
+        STR++;
     }
     return counter;
 }
