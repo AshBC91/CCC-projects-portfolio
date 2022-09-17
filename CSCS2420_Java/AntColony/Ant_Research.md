@@ -43,5 +43,47 @@ Once a queen die, in most cases and species of ants, the colony fails to produce
 The Insane Biology of: Ant Colonies:
 https://youtu.be/VLBDVXLiWxQ
 
+Ant colonies operate in social structures akin to hierarchies. This means that certain ants have a superior role to other ants in the colony.
+Queens
+Drones
+Workers
+Reproductives
 
-https://www.westernexterminator.com/ants/10-interesting-facts-ants/
+Reproductive Ants
+Sometimes, the queen will lay eggs that hatch into winged ants. These ants can be both male and female, and their purpose is to leave the nest and establish new colonies. The males die soon after mating with the females, while some of the female ants survive to become queens of their own colonies.
+
+Drone Ants
+Drone ants have one function and one function only: to reproduce with the queen. Drones are male ants that rarely leave the colony. They die after mating with the queen.
+
+Males
+Much like the queens, males have large wings and a larger bodies than the worker ants. The difference in body type from the queen is that the males’ abdomens are quite slender. They also have flaps underneath belonging to their sexual organs. These are always visible even though they might be hard for us to spot.
+
+The males are born in the nest and after birth start wandering around it. Most of the time, they do not perform any of the colony duties, but rather bides their time waiting for the nuptial flights. Their mission in life is not to contribute to the colony, but to mate with as many females as possible. When the big day comes the males dies off within the hour after mating. If they’re lucky they can survive for a few days. But unfortunately, in the ant world, there is no life for a male ant after mating. By then, the females are either dead or beneath the ground, founding their new colonies. The males cannot survive another year in the hopes of a new generation of females taking flight. (2)
+
+Males are almost always darkly colored, independent of other castes color schemes. This makes it very difficult to tell their species, because many males look the same. (3)
+
+
+Ants colonies fight among each other.
+Ants hibernate. After winter is over, centuries check if weather conditions are warmer.
+Right after hibernation, the queen lays new eggs. The first eggs will contain winged queens and males.
+Worker ants feed and care for them, as they will have to be ready to mate once spring arrives.
+
+Ants undergo complete metamorphosis, passing through a sequence of four stages: egg, larva, pupa, and adult.
+
+Once the ice melts, foragers travel around, and when they meet ants from other colonies they engage in fights. Ants tend to request for backup and fight to gain territory. Wars among ant armies.
+
+Wood ants spray formic acid from their abdomens against enemies and predators.
+Ants bite and pull from ant enemy’s antennae and limbs. It could take up to 7 ants to subdue one enemy. 6 ants hold down from the extremities, while the seventh uses its mandibles to cut open parts of the enemy ant’s exoskeleton exposing the insides.
+
+Once the exoskeleton is ripped apart, the attacker ant squirts acid into the wound, to dissolve the inner organs.
+
+Ant colonies identify each other with chemical “badges”, a scent particular to their colonies. Ants tap their antennae against other ants to find out if they’re friend or foe.
+
+These wars can continue for over a week, and thousands of ants die. The victors will gain territory and keep the dead enemies as food.
+
+Minute 19:00
+
+https://www.antkeepers.com/facts/ants/caste-system-ant-societies/
+https://www.antwiki.org/wiki/Caste_Terminology
+https://youtu.be/mEaiHWucbtM
+
