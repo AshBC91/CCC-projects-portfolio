@@ -1,4 +1,4 @@
-Ant research
+Formicidae Ant research 
 
 The Insane Biology of: Ant Colonies:
 https://youtu.be/VLBDVXLiWxQ
@@ -59,7 +59,9 @@ Much like the queens, males have large wings and a larger bodies than the worker
 The males are born in the nest and after birth start wandering around it. Most of the time, they do not perform any of the colony duties, but rather bides their time waiting for the nuptial flights. Their mission in life is not to contribute to the colony, but to mate with as many females as possible. When the big day comes the males dies off within the hour after mating. If they’re lucky they can survive for a few days. But unfortunately, in the ant world, there is no life for a male ant after mating. By then, the females are either dead or beneath the ground, founding their new colonies. The males cannot survive another year in the hopes of a new generation of females taking flight. (2)
 
 Males are almost always darkly colored, independent of other castes color schemes. This makes it very difficult to tell their species, because many males look the same. (3)
+
 https://www.antkeepers.com/facts/ants/caste-system-ant-societies/
+Antkeepes/caste system ant societies
 
 Ant behavior:
 Ant colonies fight among each other.
@@ -80,7 +82,9 @@ These wars can continue for over a week, and thousands of ants die. The victors 
 
 Minute 19:00
 https://youtu.be/mEaiHWucbtM
+Empire of the Ants - BBC Documentary HD
 https://www.antwiki.org/wiki/Welcome_to_AntWiki
+Antwiki
 
 Females are diploid, hatched from fertilized eggs, hence two sets of chromosomes
 Males are haploid, hatched from unfertilized eggs, hence just one set of chromosomes from the mother, thus males do not have a father
@@ -88,6 +92,8 @@ Males are haploid, hatched from unfertilized eggs, hence just one set of chromos
 •	Queens: reproductive females that are fully winged (alate) in most species but can be short-winged or wingless in other species. According to species, one or several mated queens reproduce in a colony. They have a lifespan of up to 25 years (and even more in the laboratory). Queens are dealate after mating.
 •	Workers: non-reproductive (sterile) females that are always wingless. They form the bulk of individuals within a colony, and typically live one or a few years. In a proportion of species, virgin workers can lay haploid eggs (destined to be males) in orphaned colonies. Several genera have workers that completely lack ovaries.
 •	Males: fully winged (mostly), short-winged or wingless (in a few species). They are generally present within a colony for only a short time each year and typically live a few weeks, dying very soon after mating.
+
+There are three terminologies used to differentiate between the casts, gyne for queen, ergates for workers, and aner for males; the aner terminology is no longer in use.
 
 Queens (gyne):
 •	Winged/alate
@@ -119,21 +125,37 @@ It is common for young, newly emerged workers to remain in the nest and tend egg
 
 This cooperation and division of labour, combined with their well-developed communication systems, has allowed ants to utilise their environment in ways approached by few other animals.	
 
-Majors and Soldiers
+Majors and Soldiers (workers)
 These are the largest-sized infertile individuals in a colony. Polymorphic workers (same growth rules but small and large individuals differ in shape due to allometry) are distinct from soldiers having morphological traits absent in workers. In Cataglyphis bombycina and various Colobopsis, workers vary extensively in body size, but the majors are morphologically distinct from the soldier caste.
 In other words, major worker ants are distinct from soldiers.
 
 Morphological sense of Soldiers
 Characterised by physical traits absent in (minor) workers, soldiers are a mosaic of queen-like and worker-like traits, and can be considered as a third caste, not a sub-caste of workers. Heads are usually enlarged because of powerful mandible muscles, and mandibles can have specialised shapes (for seed-milling, wood-boring, or defence). In various unrelated genera, the head is modified to be door-shaped. The prothorax is enlarged in many species due to larger neck muscles needed to carry heavy heads.
 
-Functional sense of Soldiers
+Functional sense of Soldiers 
 Workers that perform the task of colony defense; workers with the same morphology can show defensive behaviors in some species (logically should be called "soldier") while in other species similar workers specialize in crushing seeds or storing food in the gaster
 
-Repletes
+Repletes (workers)
 Workers or soldiers whose crop is greatly distended with liquid food and functioning as living reservoirs; this food is shared with other colony members by regurgitation
 
-Gamergates
-Mated, egg-laying workers that reproduce sexually, like the queen caste. In about 1% of species, across several ant subfamilies, all workers in a colony can mate and store sperm in the spermatheca. Dominance interactions regulate which individual(s) can mate and lay eggs.
+Gamergates (workers)
+Mated, egg-laying workers that reproduce sexually, like the queen caste. In about 1% of species, across several ant subfamilies, all workers in a colony can mate and store sperm in the spermatheca. Dominance interactions regulate which individual(s) can mate and lay eggs. 
+
+	Function
+	Reproductive	Sterile/Virgin
+Morphology	Wings Present	• Queen (virgin or inseminated)
+-or-
+• Gyne (virgin or inseminated)
+-or-
+• Female (virgin or inseminated)
+-or-
+• Alate queen (virgin) + Dealate queen (inseminated)
+-or-
+• Gyne (virgin) + Queen (inseminated)	• Helper queen
+	Wings Absent	• 'Single-purpose' ergatoid
+• Dichthadiiform
+• Gamergate	• Worker
+• 'Multi-purpose' ergatoid
 
 Males (aner):
 Fully winged males
@@ -162,7 +184,9 @@ The third and last stage of an ant’s development is the pupae. During the end 
 From egg to ant
 When the pupae is fully grown and has begun to darken, it will wake up. For the first days of it’s life it will be lightly coloured and transparent in comparison to the other members of the ant colony. But after a few days it will darken and gain the same markings as it’s sisters. Most ant species let the new ants (also called nanitics) live their first time in safety, tending to the eggs, queen and other inside-duties of the colony. Then eventually they will look towards more dangerous tasks such as foraging or defending the nest. The closer one ant is to death (by age), the more economically motivated the colony is to risk it’s life.
 
+Antkeepers/ From egg to ant
 https://www.antkeepers.com/facts/ants/egg-to-ant/
+
 
 The Ant Life Cycle
 After nuptial flight
@@ -172,3 +196,15 @@ The colony grows as more workers mature, these new workers taking over the care 
 
 As the colony reaches maturity, it begins to produce the queens and males (called alates) which will form the next generation. Numerous factors determine when queens are produced, including the time of year, the food available to the growing larvae, the size and contents of the egg laid, pheromones or hormones produced by the queen and the age of the queen.
 
+Caste determination:
+Caste In Ant Colonies: How Fate Is Determined Between Workers And Queens
+https://www.sciencedaily.com/releases/2008/10/081021093944.htm
+Larvae become different castes (small workers, large workers, or new queens) based largely on the nutrition they receive. Those fed more insects than seeds are more likely to become larger individuals (queen>large worker>small worker). However, genetic differences also contribute and bias the larva's developmental pathway. Even once caste is determined, nutritional, social (colony size), and genetic factors all contribute, but in different ways, to how big an individual grows.
+
+Caste development and evolution in ants: it's all about size
+Waring Trible , Daniel J. C. Kronauer
+https://doi.org/10.1242/jeb.145292
+
+High nutrition during larval growth in ants can induce queen development, and starvation can prevent it (Brian, 1956, 1979). However, high nutrition during larval growth does not necessarily result in large adult size, as variation in developmental timing (which can result from genetic and other factors) can cause individuals under poor nutritional conditions to prolong development and attain large size, or individuals under rich nutritional conditions to truncate development and attain small size
+
+Two endocrine hormones, juvenile hormone (JH) and ecdysone, are important regulators of developmental timing in insects. Pupation (and the cessation of larval growth) is triggered by ecdysone, and the action of ecdysone is inhibited by JH (Hiruma and Kaneko, 2013). Thus, treatment of larvae with JH or JH analogs leads to prolonged growth and larger size, as long as necessary nutrition is present. JH removal and/or ecdysone treatment leads to premature pupation and smaller adult size (Hiruma and Kaneko, 2013). This endocrine regulation of insect size has been demonstrated in Coleoptera and Lepidoptera, and is also supported by experiments in ants. JH treatment in Harpegnathos saltator and M. rubra, for example, prolongs larval development, allowing increased feeding (Brian, 1974; Penick et al., 2012). This in turn translates to larger size at pupation and queen development (Brian, 1974; Penick et al., 2012). In M. rubra, it has been further shown that ecdysone treatment has little effect while JH is present, but leads to premature pupation later in development after JH has been cleared (Brian, 1974). This demonstrates that nutrition and the endocrine system are important regulators of size and caste in ants.
