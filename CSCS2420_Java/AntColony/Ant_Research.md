@@ -171,3 +171,4 @@ Either during her search or once a suitable site is found she bites off her wing
 The colony grows as more workers mature, these new workers taking over the care of brood as well as bringing in additional food. At this stage, the queen reduces her activities to egg laying and the workers assume all other tasks in the nest. The queen is still essential for normal colony life, however, as the chemical messages she produces controls the activities of all workers in the nest.
 
 As the colony reaches maturity, it begins to produce the queens and males (called alates) which will form the next generation. Numerous factors determine when queens are produced, including the time of year, the food available to the growing larvae, the size and contents of the egg laid, pheromones or hormones produced by the queen and the age of the queen.
+
