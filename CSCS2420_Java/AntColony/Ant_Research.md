@@ -17,6 +17,8 @@ Non-reproductive worker caste, reproductive loyal caste
 Queen is the only reproductive female of the entire colony and the colony exists to serve her.
 A colony begins with the birth of a queen. Queens are born from special eggs laid by the mother queen, which are different than all other regular worker eggs. These eggs are laid after the colony has reached a certain size, and when they hatch they produce larger ants with wings. These ants are reproductive males and female young queens.
 
+Colonies could be monogynous or polygynous. Monogynyous one Queen, polygynyous multiple Queens.
+
 During nuptial flights, these winged ants take flight and mate with each other, after which the males die and the queens drop to the ground, scrape off their wings, and look for a place to dig their nests.
 Only few queen ants survive, around 1/500 succeed to not get devoured by predators or to find the perfect nest. Those that succeed become the single egg laying ant of a colony. Some species might have more than one queen
 
@@ -27,8 +29,6 @@ In the average ant colony, two kinds of females exist: those who mate and those 
 There are many different types and sizes of worker ants with different roles. Worker ants don’t have wings. The worker ants decide the roles of the larvae, choosing which worker caste they will develop into. Worker ants develop into different types based on their nutrition during their larvae phase. Those fed more insects are more likely to become larger individuals. The variety in sizes is called polymorphism. 
 
 The larger workers are called soldiers they defend the colony. Medium size ants are excavators, foragers, garbage collectors, etc. The smallest ants are gardeners, they fed the young and cultivate and farm fungus, the only food source for the whole colony.
- 
-
 Communication:
 Ants behave and travel based on a complex system of communication.
 Ants have poor sight and hearing. 
@@ -163,13 +163,16 @@ The vast majority of species have fully-winged males. Ant males are optimized fo
 Non-flying males
 A very small number of ant species have wingless or short-winged males. Consequent to the lack of wing muscles, the thorax is reduced in volume and sclerites fuse in some species. Hence “ergatoid” (worker-like) is appropriate to describe such males.
 
+
 Brood:
+Antkeepers/ From egg to ant
+https://www.antkeepers.com/facts/ants/egg-to-ant/
 Ants undergo complete metamorphosis, passing through a sequence of four stages: egg, larva, pupa, and adult. brood (eggs, larvae and pupae)
 There are three phases that every ant goes through before it can be considered complete and ready to start it’s service to the colony. The queen is the mother of all colony members, and for the most part lays all of the eggs. The time from egg to ant is not the same in every species, but a well-known example is the black garden ant (Lasius niger) which takes approximately eight weeks to finish the process.
 The development is divided into three stages. The first stage is the egg, followed by the larvae which is in turn followed by the pupae.
 
 The egg:
-The eggs are tiny. They have an oval form with a sticky surface. The stickiness serves as glue when several eggs are put together, making it easier fro the workers to carry many eggs at a time. This is very practical and crucial in times of nest invasion when brood needs to be transported to safety as quickly as possible.
+The eggs are tiny. They have an oval form with a sticky surface. The stickiness serves as glue when several eggs are put together, making it easier for the workers to carry many eggs at a time. This is very practical and crucial in times of nest invasion when brood needs to be transported to safety as quickly as possible.
 
 The queen is also able to lay trophic eggs. These eggs are made for eating and are not fertilised. It might seem an odd thing, but they are actually quite useful. For example, when the queen is founding her colony, she is unable to go out foraging. She then converts her wing muscles into eggs, which she can eat and get nutrients from. They are also great for feeding the larvae when no other food is around. In some cases, workers have been known to lay trophic eggs and feed them to the queen. 
 
@@ -184,8 +187,15 @@ The third and last stage of an ant’s development is the pupae. During the end 
 From egg to ant
 When the pupae is fully grown and has begun to darken, it will wake up. For the first days of it’s life it will be lightly coloured and transparent in comparison to the other members of the ant colony. But after a few days it will darken and gain the same markings as it’s sisters. Most ant species let the new ants (also called nanitics) live their first time in safety, tending to the eggs, queen and other inside-duties of the colony. Then eventually they will look towards more dangerous tasks such as foraging or defending the nest. The closer one ant is to death (by age), the more economically motivated the colony is to risk it’s life.
 
-Antkeepers/ From egg to ant
-https://www.antkeepers.com/facts/ants/egg-to-ant/
+Ant Life Cycle - Ask A Biologist:
+https://askabiologist.asu.edu/individual-life-cycle#:~:text=Ants%20undergo%20complete%20metamorphosis%2C%20passing,life%20begins%20as%20an%20egg.
+An ant’s life begins as an egg. Ant eggs are soft, oval, and tiny – about the size of a period at the end of a sentence. Not all eggs are destined to become adults – some are eaten by nestmates for extra nourishment.
+
+An egg hatches into a worm-shaped larva with no eyes or legs. Larvae are eating machines that rely on adults to provide a constant supply of food. As a result, they grow rapidly, molting between sizes.
+When a larva is large enough, it metamorphoses into a pupa. This is a stage of rest and reorganization. Pupae look more like adults, but their legs and antennae are folded against their bodies. They start out whitish and gradually become darker. The pupae of some species spin a cocoon for protection, while others remain uncovered, or naked.
+
+Finally, the pupa emerges as an adult. Young adults are often lighter in color, but darken as they age. The process of development from egg to adult can take from several weeks to months, depending on the species and the environment. Did you know that ants, like all insects, are full-grown when they become adults? Their exoskeletons prevent them from getting any larger.
+
 
 
 The Ant Life Cycle
@@ -196,15 +206,34 @@ The colony grows as more workers mature, these new workers taking over the care 
 
 As the colony reaches maturity, it begins to produce the queens and males (called alates) which will form the next generation. Numerous factors determine when queens are produced, including the time of year, the food available to the growing larvae, the size and contents of the egg laid, pheromones or hormones produced by the queen and the age of the queen.
 
+Duration of Ant Metamorphosis:
+https://www.familyhandyman.com/article/ant-life-cycle/
+Ants undergo a metamorphosis in four life stages: egg, larvae, pupae and adult. The entire process can take up to 60 days from start to finish.
+Egg stage: Each ant begins its life cycle as an egg. The colony's queen lays the ant eggs, which typically hatch within one to two weeks of being laid.
+Larvae stage: A single larva grows so rapidly that it molts (sheds its skin) several times during this phase, which lasts between 6 and 12 days. (7-14 days)
+Pupae stage: In this third and final gestation period (six to 10 weeks) the pupae of some species spin protective cocoons, while others remain uncovered.
+
+Ant life cycle:
+https://www.rentokil.co.id/en/ants/ant-life-cycle/
+Generally, ant eggs will hatch and eventually reaching into the larval stage within 7 - 14 days depending on species, temperature and humidity.
+
+Ants pupae are white in colour, appear somewhat like adults ants with their legs and antennae folded by the body and covered by a white or brownish cocoon. The pupa emerges as an ant adult within 9 - 30 days in most species.
+
+
+*Carpenter ants’ lifespan: 4-5 years for workers; up to 15 years for ant queen
+https://www.ecoguardpestmanagement.com/pest-resources/how-long-do-ants-live
+	
 Caste determination:
 Caste In Ant Colonies: How Fate Is Determined Between Workers And Queens
 https://www.sciencedaily.com/releases/2008/10/081021093944.htm
 Larvae become different castes (small workers, large workers, or new queens) based largely on the nutrition they receive. Those fed more insects than seeds are more likely to become larger individuals (queen>large worker>small worker). However, genetic differences also contribute and bias the larva's developmental pathway. Even once caste is determined, nutritional, social (colony size), and genetic factors all contribute, but in different ways, to how big an individual grows.
 
 Caste development and evolution in ants: it's all about size
-Waring Trible , Daniel J. C. Kronauer
+Waring Trible , Daniel J. C. Kronauer	
 https://doi.org/10.1242/jeb.145292
 
 High nutrition during larval growth in ants can induce queen development, and starvation can prevent it (Brian, 1956, 1979). However, high nutrition during larval growth does not necessarily result in large adult size, as variation in developmental timing (which can result from genetic and other factors) can cause individuals under poor nutritional conditions to prolong development and attain large size, or individuals under rich nutritional conditions to truncate development and attain small size
 
 Two endocrine hormones, juvenile hormone (JH) and ecdysone, are important regulators of developmental timing in insects. Pupation (and the cessation of larval growth) is triggered by ecdysone, and the action of ecdysone is inhibited by JH (Hiruma and Kaneko, 2013). Thus, treatment of larvae with JH or JH analogs leads to prolonged growth and larger size, as long as necessary nutrition is present. JH removal and/or ecdysone treatment leads to premature pupation and smaller adult size (Hiruma and Kaneko, 2013). This endocrine regulation of insect size has been demonstrated in Coleoptera and Lepidoptera, and is also supported by experiments in ants. JH treatment in Harpegnathos saltator and M. rubra, for example, prolongs larval development, allowing increased feeding (Brian, 1974; Penick et al., 2012). This in turn translates to larger size at pupation and queen development (Brian, 1974; Penick et al., 2012). In M. rubra, it has been further shown that ecdysone treatment has little effect while JH is present, but leads to premature pupation later in development after JH has been cleared (Brian, 1974). This demonstrates that nutrition and the endocrine system are important regulators of size and caste in ants.
+
+Division of labor within the worker caste appears to be size based. Smaller minimums or minors and medias serve as foragers, care for brood, and attend to nest maintenance whereas majors serve in colony defense, as protein foragers, and as intermediate transporters or “tankers” of carbohydrates from the smaller foragers or “aphid tenders” to the nest (Pricer 1908, Fowler and Roberts 1980, Tilles and Wood 1986). Hölldobler and Wilson (1990) found that labor partitioning may not be solely determined by morphology, but also by age, termed temporal polyethism. Buckingham (1911) and Lee (1938) noted in several species of Camponotus, the youngest ants were 19 nurses, slightly older ants were queen attendants, middle-aged workers were foragers and maintained the nest while the oldest ants served as foragers, nest builders, soldiers and transporters during emigration (Fowler and Roberts 1980). Traniello (1977) observed in C. pennsylvanicus colonies that 68% of all foraging was performed by older workers.
