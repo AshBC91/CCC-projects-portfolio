@@ -1,6 +1,23 @@
 # Brainstorming
 
 1. Have a class called **Formicidae (or Ants)**
+    - Morphology:
+	    - Exoskeleton
+        - Head
+            - Geniculate antennae
+            - Compound eyes
+            - Mandibles
+            - Ocelli
+        - Mesosoma
+            - Alitrunk
+            - Metapleural glands, glands that secrete antibiotics
+            - Six jointed legs
+            - Wings
+        - Metasoma
+            - Petiole
+            - Post-petiole
+            - Gaster
+            - Sting
 2. Have a class called **Species**
     - Although there are different categories, I will be skipping straight into species.
     - Category groups: Subfamilies > Tribes > Genus > Subgenus > Species
