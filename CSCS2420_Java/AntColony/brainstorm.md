@@ -1,10 +1,21 @@
 # Brainstorming
+Pascal Case will be used for Classes
+MACRO_CASE will be used for variables/properties with inexact numbers 
+cameCase will be used for the rest of variables
 
 1. Have a class called **Formicidae (or Ants)**
-    - Morphology:
-	    - Exoskeleton
-        - Head
-            - Geniculate antennae
+    - Morphology (Class):
+	    - Exoskeleton (Class): I am unsure if exoskeleton should be considered as a "global" class that covers the whole body, or make it specific to each body segment.
+            - doesHave (Bool)
+            - THICKNESS (float)
+            - state/condition (property/method): state/condition could be a method that ranges from 0 - 100, indicating the current "health" of the property
+        - Head (Class)
+            - doesHave (Bool)
+            - state/condition (property/method)
+            - Geniculate antennae (Class)
+                -howMany (int)
+                -
+                
             - Compound eyes
             - Mandibles
             - Ocelli
