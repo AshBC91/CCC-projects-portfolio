@@ -1,7 +1,7 @@
 # Brainstorming
-Pascal Case will be used for Classes
+PascalCase will be used for Classes
 MACRO_CASE will be used for variables/properties with inexact numbers 
-cameCase will be used for the rest of variables
+camelCase will be used for the rest of variables and methods
 
 1. Have a class called **Formicidae (or Ants)**
     - Morphology (Class):
@@ -9,14 +9,20 @@ cameCase will be used for the rest of variables
             - doesHave (Bool)
             - THICKNESS (float)
             - state/condition (property/method): state/condition could be a method that ranges from 0 - 100, indicating the current "health" of the property
+            - PROTECTION (float): The protection level depends on the thickness of the exoskeleton and the condition
         - Head (Class)
             - doesHave (Bool)
             - state/condition (property/method)
             - Geniculate antennae (Class)
-                -howMany (int)
-                -
-                
-            - Compound eyes
+                - doesHave (Bool)
+                - howMany (int)
+                - Antenna (Class): The ant could have 0 or more, Ants use their antenna to touch, smell, and communitace.
+                    - doesHave (Bool)
+                    - LENGTH (float)
+                    - state/condition (property/method)
+                    - SENTIVITY (float)
+                - TOTAL_SENCE (float)
+            - Compound eyes (Class)
             - Mandibles
             - Ocelli
         - Mesosoma
