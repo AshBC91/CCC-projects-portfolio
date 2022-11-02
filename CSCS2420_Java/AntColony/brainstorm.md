@@ -1,28 +1,33 @@
 # Brainstorming
-PascalCase will be used for Classes
-MACRO_CASE will be used for variables/properties with inexact numbers 
-camelCase will be used for the rest of variables and methods
+<p>
+PascalCase will be used for Classes<br>
+MACRO_CASE will be used for variables/properties with inexact numbers<br>
+camelCase will be used for the rest of variables and methods<br>
+</p>
 
 1. Have a class called **Formicidae (or Ants)**
     - Morphology (Class):
 	    - Exoskeleton (Class): I am unsure if exoskeleton should be considered as a "global" class that covers the whole body, or make it specific to each body segment.
-            - doesHave (Bool)
-            - THICKNESS (float)
-            - state/condition (property/method): state/condition could be a method that ranges from 0 - 100, indicating the current "health" of the property
-            - PROTECTION (float): The protection level depends on the thickness of the exoskeleton and the condition
+            - doesHave (Bool): Default is True.
+            - THICKNESS (float): Thinkness depends on species, the units are micrometers.
+            - state/condition (property/method): state/condition could be a method that ranges from 0 - 100, indicating the current "health" of the property.
+            - PROTECTION (float): The protection level depends on the thickness of the exoskeleton and it's condition.
         - Head (Class)
-            - doesHave (Bool)
-            - state/condition (property/method)
+            - doesHave (Bool): Default is True.
+            - headState/condition (property/method): Depends on the condition of its other components.
             - Geniculate antennae (Class)
                 - doesHave (Bool)
-                - howMany (int)
-                - Antenna (Class): The ant could have 0 or more, Ants use their antenna to touch, smell, and communitace.
+                - howMany (int): Default value is 2.
+                - TOTAL_SENCE (float)
+                - antannaeState/condition: Depends on the condition of each antenna.
+                - Antenna (Class): The ant could have 0 or more. Ants use their antenna to touch, smell, and communitace.
                     - doesHave (Bool)
                     - LENGTH (float)
                     - state/condition (property/method)
                     - SENTIVITY (float)
-                - TOTAL_SENCE (float)
             - Compound eyes (Class)
+                - doesHave (Bool): 
+                - howMany (int)
             - Mandibles
             - Ocelli
         - Mesosoma
