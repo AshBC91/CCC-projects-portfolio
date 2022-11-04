@@ -9,29 +9,52 @@ camelCase will be used for the rest of variables and methods<br>
     - Morphology (Class):
 	    - Exoskeleton (Class): I am unsure if exoskeleton should be considered as a "global" class that covers the whole body, or make it specific to each body segment.
             - doesHave (Bool): Default is True.
-            - THICKNESS (float): Thinkness depends on species, the units are micrometers.
-            - state/condition (property/method): state/condition could be a method that ranges from 0 - 100, indicating the current "health" of the property.
+            - THICKNESS (float): Thinkness depends on species, measured in micrometers.
+            - condition (float/method): state/condition could be a method that ranges from 0 - 100, indicating the current "health" of the property.
             - PROTECTION (float): The protection level depends on the thickness of the exoskeleton and it's condition.
         - Head (Class)
-            - doesHave (Bool): Default is True.
-            - headState/condition (property/method): Depends on the condition of its other components.
-            - Geniculate antennae (Class)
-                - doesHave (Bool)
+            - doesHave (Bool): Default is True. Will remain True until condition != 0.
+            - condition (float/method): Depends on the condition of all other head components.
+            - SIZE (float): Measured in micrometers.
+            - Geniculate antennae (Class): Group of antenna
+                - doesHave (Bool): Default is True, and will remain True until howMany == 0.
                 - howMany (int): Default value is 2.
-                - TOTAL_SENCE (float)
-                - antannaeState/condition: Depends on the condition of each antenna.
-                - Antenna (Class): The ant could have 0 or more. Ants use their antenna to touch, smell, and communitace.
+                - TOTAL_SENCE (float): Stores the calculated total percentage of the ant's sensing hability from all the antennae left.
+                - condition: Depends on the condition of each antenna.
+                - Antenna (Class): The ant could have 0 or more. Default is 2. Ants use their antenna to touch, smell, and communitace.
                     - doesHave (Bool)
-                    - LENGTH (float)
-                    - state/condition (property/method)
-                    - SENTIVITY (float)
-            - Compound eyes (Class)
-                - doesHave (Bool): 
-                - howMany (int)
-            - Mandibles
-            - Ocelli
-        - Mesosoma
-            - Alitrunk
+                    - LENGTH (float) measured in micrometers.
+                    - condition (float/method): when the condition reaches 0, the antenna is lost or not functional.
+                    - SENTIVITY (float): The capacity of the antenna to touch and smell.
+            - Compound eyes (Class): Group of eyes
+                - doesHave (Bool): Default is True, and will remain True until howMany == 0.
+                - howMany (int): Defaut value is 2.
+                - TOTAL_SIGHT (float): Stores the calculated total percentage of the ant's eye sight from all the eyes left.
+                - condition: Depends on the condition of each eye.
+                - Eye (Class): The ant could have 0 or more. Default is 2. Eyes allows ants to see.
+                    - doesHave (Bool)
+                    - DIAMETER (float): measured in micrometers.
+                    - condition (float/method): when the condition reaches 0, the eye is lost or not functional.
+                    - EYE_SIGHT (float): The capacity of the eye to see.
+            - Mandibles (Class): Ants use their mandibles to eat, carry, and/or fight.
+                - doesHave (Bool): Default is True, and will remain True while condition != 0.
+                - LENGTH (float): Measured in micrometers
+                - STRENGTH (float): The strength depends on the caste and the length of the manidibles.
+                - condition: when the condition reaches the ant will lose strength to carry or fight, but will still be capable to eat.
+            - Ocelli (Class): Group of eyespots. Not all species have Ocelli. Ocellu have limited sight, they can only sense movement.
+                - doesHave (Bool): Default is True, and will remain True until howMany == 0.
+                - howMany (int): Default value is 3.
+                - TOTAL_SIGHT (float): Stores the calculated total percentage of the ant's eye sight from all the eyespots left.
+                - condition: Depends on the condition of each eyespot.
+                - Eye (Class): The ant could have 0 or more. Default is 3. Eyes allows ants to see. 
+                    - doesHave (Bool)
+                    - DIAMETER (float): measured in micrometers.
+                    - condition (float/method): when the condition reaches 0, the eye is lost or not functional.
+                    - EYE_SIGHT (float): The capacity for the eye to sense movement.
+        - Alitrunk (Class)
+            - doesHave (Bool): Default is True. Will remain True until condition != 0.
+            - condition (float/method): Depends of the condition of all other Alitrunk components.
+            - SIZE (float): Measured in micrometers.
             - Metapleural glands, glands that secrete antibiotics
             - Six jointed legs
             - Wings
