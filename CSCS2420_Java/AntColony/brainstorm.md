@@ -52,12 +52,19 @@ camelCase will be used for the rest of variables and methods<br>
             - glands_Exists (Bool): Ants use their glands to communicate and heal themselves. E.G. the metapleural gland is a gland that secrete antibiotics.
             - legs_Exists (Bool): Default is True, and will remain True until howMany == 0.
             - howManyLegs (int): Default value is 6.
-            - wings_Exists (Bool): 
+            - wings_Exists (Bool): Default for Workers is False. Default for Queen is True.
+            - howManyWings (int): Default for Workers if 0. Default for Queen is 2.
             - Leg (Class): The ant could have 0 or more. Default is 6. Ants use their legs to walk.
                 - LEG_LENGTH (float): measured in micrometers
                 - leg_health (float/method): when the health reaches 0, the leg is lost or not functional.
-            - Wings
+            - Wings (Class): The and could have 0 or more, depending on the Caste. Ants use their wings to fly.
+                - WING_LENGTH (float): measured in micrometer
+                - wing_health (float/method): when the health reaches 0, the wing is lost or not functional.
         - Metasoma
+            - metasoma_health (float/method): Depends on the health of all the other metasoma components. When the health reaches 0, the metasoma is lost or not functional.
+            - METASOMA_SIZE (float): Measured in micrometers.
+            - petiole_Exists (Bool): Default is True, will remain True until health != 0. The petiole is the "waist" of the Ant, that connects the allitrunk with the gaster. 
+            - post-pet_Exists (Bool): Default is False. If it exists, it will remain true until health != 0. The existence of the post petiole depends on the ants species.
             - Petiole
             - Post-petiole
             - Gaster
