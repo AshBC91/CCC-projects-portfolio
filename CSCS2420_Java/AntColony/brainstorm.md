@@ -8,9 +8,9 @@ camelCase will be used for the rest of variables and methods<br>
 1. Have a class called **Formicidae (or Ants)**
     - Morphology (Class):
         - exosk_Exists (Bool): Default is True.
-        - head_Exists (Bool): Default is True. Will remain True until head_health != 0.
-        - alitrunk_Exists (Bool) Default is True. Will remain True until alitrunk_health != 0.
-        - metasoma_Exists (Bool) Default is True. Will remain True until metasoma_health != 0.
+        - head_Exists (Bool): Default is True. Will remain True while head_health != 0.
+        - alitrunk_Exists (Bool) Default is True. Will remain True while alitrunk_health != 0.
+        - metasoma_Exists (Bool) Default is True. Will remain True while metasoma_health != 0.
         - body_health (float): Is the overal health calculated from the condition of each body segment.
 	    - Exoskeleton (Class): I am unsure if exoskeleton should be considered as a "global" class that covers the whole body, or make it specific to each body segment.
             - EXO_THICKNESS (float): Thinkness depends on species, measured in micrometers.
@@ -63,12 +63,20 @@ camelCase will be used for the rest of variables and methods<br>
         - Metasoma
             - metasoma_health (float/method): Depends on the health of all the other metasoma components. When the health reaches 0, the metasoma is lost or not functional.
             - METASOMA_SIZE (float): Measured in micrometers.
-            - petiole_Exists (Bool): Default is True, will remain True until health != 0. The petiole is the "waist" of the Ant, that connects the allitrunk with the gaster. 
-            - post-pet_Exists (Bool): Default is False. If it exists, it will remain true until health != 0. The existence of the post petiole depends on the ants species.
-            - Petiole
-            - Post-petiole
-            - Gaster
-            - Sting
+            - petiole_Exists (Bool): Default is True, will remain True while health != 0. 
+            - post-pet_Exists (Bool): Default is False. If it exists, it will remain true while health != 0.
+            - gaster_Exists (Bool): Default is True, will remain True while health != 0. 
+            - Petiole (Class): The ant could have 0 or more. Default is 1. The petiole is the "waist" of the Ant that connects the allitrunk with the gaster.
+                - PETIOLE_SIZE (float): measured in micrometers.
+                - petiole_health (float): when the health reaches 0, the petiole is lost or not functional.
+            - Post-pet (Class): The ant could have 0 or more. Default is 1. Post petiole is a chained petiole, that links the previous petiole with the gaster. The existence of the post petiole depends on the ants species.
+                - POST-PET_SIZE (float): measured in micrometers.
+                - post-pet_health (float): when the health reaches 0, the post-petiole is lost or not functional.
+            - Gaster (Class):
+                - GASTER_SIZE (float): measured in micrometers.
+                - gaster_health (float): when the health reaches 0, the gaster is lost or not functional.
+                - sting_Exists (Bool): Default is False. If it exists, it will remain true while health != 0. The existence of the sting depends on the ants species.
+                - STING_STRENGTH (float): Ants use their sting to inject a paralyzing agent. This is the strength of the paralyzing agent. The higher the strength the most likely it will paralyze.
 2. Have a class called **Species**
     - Although there are different categories, I will be skipping straight into species.
     - Category groups: Subfamilies > Tribes > Genus > Subgenus > Species
