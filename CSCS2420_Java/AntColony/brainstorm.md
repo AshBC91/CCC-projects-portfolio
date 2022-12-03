@@ -101,7 +101,7 @@ camelCase will be used for the rest of variables and methods<br>
     - **Adult Stage**, Roles depend on subcaste and age. Have a property called age.
 6. Have a class called **Sex**
     - Females are diploid (two sets of chromosomes), hatched from fertilized eggs.
-    - Males are haploid (one set of chromosomes), hatched from unfertilized eggs.
+    - Males are haploid (one set of chromosomes), hatched from unfertilized eggs. There is a 25% chance of an ant being male. The general ratio is 1 male per 3 females.
 7. Have a class called **Castes**
     - Castes and subcastes depend on how much nutrition the larvae receive during development
         - Starved larvae hatch into **Workers**
