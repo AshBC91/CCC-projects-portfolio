@@ -1,4 +1,11 @@
 class Formicidae {
+    
+    String species;
+    String name;
+    Sex_Select sex;
+    Life_Stage stage;
+    Caste caste;
+    Subcaste subcaste;
 
     enum Sex_Select {
         Male,
@@ -50,16 +57,16 @@ class Formicidae {
             float HEAD_SIZE;
 
             Bool antannae_Exists;
-            int howManyAntennae;
+            float howManyAntennae;
             float TOTAL_SENSE;
 
             Bool mandible_Exists;
 
             Bool comp_Eye_Exists;
-            int howManyEyes;
+            float howManyEyes;
 
             Bool ocelli_Exists;
-            int howManyEyespots;
+            float howManyEyespots;
 
             float TOTAL_SIGHT;
 
@@ -96,10 +103,10 @@ class Formicidae {
             Bool glands_Exists;
 
             Bool legs_Exists;
-            int howManyLegs;
+            float howManyLegs;
 
             Bool wings_Exists;
-            int howManyWings;
+            float howManyWings;
 
             class Leg {
                 float LEG_LENGTH;
@@ -113,16 +120,62 @@ class Formicidae {
         }
 
         class Metasoma {
-
+            float metasoma_health;
+            float METASOMA_SIZE;
             
+            Bool petiole_Exists;
+            Bool postpetiole_Exists;
+            Bool gaster_Exists;
+            
+            class Petiole {
+                float PETIOLE_SIZE;
+                float petiole_health;
+            }
+
+            class PostPet {
+                float POSTPET_SIZE;
+                float postpet_health;
+            }
+
+            class Gaster {
+                float GASTER_SIZE;
+                float gaster_health;
+
+                Bool sting_Exists;
+                float STING_STRENGTH;
+
+                public Gaster ( String species ) {
+                    switch (species) {
+                        case "Black Carpenter":
+                            this.GASTER_SIZE = 0.9;
+                            this.gaster_health = 100.00; // Out of a 100
+
+                            this.sting_Exists = false;
+                            this.STING_STRENGTH = 0;
+
+                            break;
+                        
+                        case "Fire":
+                            this.GASTER_SIZE = 0.3;
+                            this.gaster_health = 100.00; // Out of a 100
+
+                            this.sting_Exists = true;
+                            this.STING_STRENGTH = 100; // Out of a 100
+
+                            break;
+
+                        default:
+                            this.GASTER_SIZE = 0.6;
+                            this.gaster_health = 100.00; // Out of a 100
+
+                            this.sting_Exists = false;
+                            this.STING_STRENGTH = 0; // Out of a 100
+                            break;
+                    }
+                }
+            }
         }
     }
 
-    String species;
-    String name;
-    Sex_Select sex;
-    Life_Stage stage;
-    Caste caste;
-    Subcaste subcaste;
-
+    public Formicidae 
 }
