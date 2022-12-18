@@ -1,3 +1,3 @@
 # Class Housing Information
 
-This was my final project for the semester. I de
+This was the final project of the semester. I de
