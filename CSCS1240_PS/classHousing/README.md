@@ -2,7 +2,7 @@
 
 This script was the final project of the semester. At this point, we were lastly introduced to Classes, Objects, and Inheritance. For this project, I decided to create a program that worked as a directory, similar to the Yellow Pages, where I modeled different addresses, each describing the type of housing and the characteristics of each home. 
 
-This code appears to be a PowerShell script that defines a number of classes representing different types of housing, including houses, apartments, and apartment units. The classes are defined in a hierarchy, with the base class "housing" representing a general housing unit and its characteristics, and the other classes representing specific types of housing that inherit from the "housing" class and add additional characteristics. The script then creates instances of these classes and assigns values to their attributes. Finally, the script prints out the addresses and characteristics of each instance.
+The classes are defined in a hierarchy, with the base class "housing" representing a general housing unit and its characteristics, and the other classes representing specific types of housing that inherit from the "housing" class and add additional characteristics. The script then creates instances of these classes and assigns values to their attributes. Finally, the script prints out the addresses and characteristics of each instance.
 
 The classes defined in the script include:
 
