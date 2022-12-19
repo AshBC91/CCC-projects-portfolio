@@ -12,10 +12,10 @@ We learned the fundamental coding practices for the languages C and C++. We were
 
 ### Index:
 <ul>
-  <li><a href="https://github.com/AshBC91/CCC-projects-portfolio/tree/main/CSCS1240_PS/carRustEstimator">carRustEstimator/</a></li>
-  <li><a href="https://github.com/AshBC91/CCC-projects-portfolio/tree/main/CSCS1240_PS/classHousing">classHousing/</a></li>
-  <li><a href="https://github.com/AshBC91/CCC-projects-portfolio/tree/main/CSCS1240_PS/CLIproject">CLIproject/</a></li>
-  <li><a href="https://github.com/AshBC91/CCC-projects-portfolio/tree/main/CSCS1240_PS/randomNumberGenerator">randomNumberGenerator/</a></li>
-  <li><a href="https://github.com/AshBC91/CCC-projects-portfolio/tree/main/CSCS1240_PS/switchOptions">switchOptions/</a></li>
+  <li><a href="https://github.com/AshBC91/CCC-projects-portfolio/tree/main/CSCS1320_C-Cpp/Number_parser">Number_parser/</a></li>
+  <li><a href="https://github.com/AshBC91/CCC-projects-portfolio/tree/main/CSCS1320_C-Cpp/PatGen">PatGen/</a></li>
+  <li><a href="https://github.com/AshBC91/CCC-projects-portfolio/tree/main/CSCS1320_C-Cpp/formatedOutput">formatedOutput/</a></li>
+  <li><a href="https://github.com/AshBC91/CCC-projects-portfolio/tree/main/CSCS1320_C-Cpp/pointerVSarray">pointerVSarray/</a></li>
+  <li><a href="https://github.com/AshBC91/CCC-projects-portfolio/tree/main/CSCS1320_C-Cpp/resistor">resistor/</a></li>
 </ul>
 </p>
