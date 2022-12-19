@@ -44,5 +44,12 @@ Each subdirectory contains a README file describing the directory's contents and
         </ul>
     </ul>
     <li>CSCS1320_C-Cpp</li>
+    <ul>
+        <li><a href="https://github.com/AshBC91/CCC-projects-portfolio/tree/main/CSCS1320_C-Cpp/Number_parser">Number_parser/</a></li>
+        <li><a href="https://github.com/AshBC91/CCC-projects-portfolio/tree/main/CSCS1320_C-Cpp/PatGen">PatGen/</a></li>
+        <li><a href="https://github.com/AshBC91/CCC-projects-portfolio/tree/main/CSCS1320_C-Cpp/formatedOutput">formatedOutput/</a></li>
+        <li><a href="https://github.com/AshBC91/CCC-projects-portfolio/tree/main/CSCS1320_C-Cpp/pointerVSarray">pointerVSarray/</a></li>
+        <li><a href="https://github.com/AshBC91/CCC-projects-portfolio/tree/main/CSCS1320_C-Cpp/resistor">resistor/</a></li>
+    </ul>
     <li>CSCS1730_UNIX</li>
 </ul>
