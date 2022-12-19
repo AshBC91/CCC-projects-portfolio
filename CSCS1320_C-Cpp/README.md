@@ -6,7 +6,7 @@
 <p>
 I took this class on my third semester during Spring 2022 at CCC, taught by Professor Joseph Oppenheim.<br>
   
-We learned the fundamental coding practices for the languages C and C++. We were taught how to use the essential libraries for each language and the difference between a procedular laguange and object-oriented language.
+We learned the fundamental coding practices for the languages C and C++. We were taught how to use the essential libraries for each language and the difference between a procedural laguange and an object-oriented language.
 
   <i>I am including only the most relevant projects I developed for this class.</i>
 
